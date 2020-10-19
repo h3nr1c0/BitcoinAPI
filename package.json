@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "frontend": "yarn --cwd ./frontend start",
+    "app": "yarn --cwd ./frontend start"
   },
   "keywords": [],
-  "author": "Peter Durham",
+  "author": "Me",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
     "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",

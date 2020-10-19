@@ -30,11 +30,6 @@ Next run
 ```
 npm install
 ```
-then
-```
-npm run server
-```
-to start the server.
 
 View a test endpoint in the browser at 'localhost:4444/api/getblockchaininfo'
 
@@ -51,3 +46,18 @@ View a test endpoint in the browser at 'localhost:4444/api/getblockchaininfo'
 - getblock
 - getrawtransaction
 - decoderawtransaction
+
+
+# Run
+## Terminal 1:
+```
+npm run server
+```
+to start the server.
+
+
+## Terminal 2:
+```
+npm run frontend
+```
+to start the frontend.

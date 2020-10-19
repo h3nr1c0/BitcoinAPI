@@ -1,2 +1,6 @@
 .env
 node_modules
+package-lock.json
+frontend/yarn.lock
+yarn.lock
+.history

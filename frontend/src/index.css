@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2,
+h3,
+h4 {
+  text-align: left;
+  /* padding: 1em; */
+}
+
+/* .blockchain-info {
+  text-align: left;
+} */
+
+p {
+  font-size: small;
+  /* padding: 1em; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pretty-test {
+  font-size: medium;
+  text-align: left;
+  /* fontSize: "1em"; */
+  /* textAlign: "left"; */
+}
+
+.pretty-json {
+  font-size: medium;
+  text-align: left;
+}
